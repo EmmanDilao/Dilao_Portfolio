@@ -1,10 +1,9 @@
 import { MdOutlineWeb } from "react-icons/md";
 import { FaLaptopCode, FaMobileAlt, FaCamera   } from "react-icons/fa";
-import testimonial1 from "../assets/girl.png"
 import testimonial2 from "../assets/boy.png"
-import Digital from "../assets/Digital.png"
-import Clothify from "../assets/Clothify.png"
-import Nike from "../assets/Nike.png"
+import Project1Image from "../assets/project1.png"
+import Project2Image from "../assets/project2.png"
+import Project3Image from "../assets/project3.png"
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -45,21 +44,21 @@ export const service = [
         logo: <FaMobileAlt/>
     },
     {
-        title:"Photography",
-        desc:"The most modern and high-quality design made at a professional level.",
+        title:"Game Developer",
+        desc:"Creating immersive and engaging digital experiences using modern game engines.",
         logo: <FaCamera/>
     },
 ]
 
 export const testimonials = [
     {
-        name:"Vanshika Sondhiya",
-        para:"Rohit is a highly talented website developer! He understands requirements well and creates clean, user-friendly websites. Great work and highly recommended! ",
-        img: testimonial1
+        name:"Mark Cunanan",
+        para:"Emmanuel is a highly talented game developer! He understands requirements well and creates clean, user-friendly games. Great work and highly recommended! ",
+        img: testimonial2
     },
     {
-        name:"Aman Sharma",
-        para:"Rohit is an excellent website developer! He is skilled, professional, and delivers fast, responsive websites. Highly recommended!",
+        name:"Nico Lara",
+        para:"Emmanuel is an excellent game developer! He is skilled, professional, and delivers fast, responsive websites. Highly recommended!",
         img: testimonial2
     },
    
@@ -68,82 +67,82 @@ export const testimonials = [
 export const timeline = [
     {
       icon: workIcon,
-      date: '2011 - present',
-      title: 'Creative Director',
-      subtitle: 'Miami, FL',
-      desc: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading',
+      date: '2025 - present',
+      title: 'Game Developer',
+      subtitle: 'Hoyoverse (Dream Job)',
+      desc: 'Game Programming, Engine Optimization, AI Behavior, Multiplayer Systems',
     },
     {
       icon: workIcon,
-      date: '2010 - 2011',
-      title: 'Art Director',
-      subtitle: 'San Francisco, CA',
-      desc: 'Creative Direction, User Experience, Visual Design, SEO, Online Marketing',
+      date: '2024 - 2025',
+      title: 'Lead Game Designer',
+      subtitle: 'Riot Games',
+      desc: 'Gameplay Balancing, Mechanics Design, Storytelling, UI/UX',
     },
     {
       icon: workIcon,
-      date: '2008 - 2010',
-      title: 'Web Designer',
-      subtitle: 'Los Angeles, CA',
-      desc: 'User Experience, Visual Design',
+      date: '2023 - 2024',
+      title: 'Software Engineer',
+      subtitle: 'Ubisoft',
+      desc: 'Backend Systems, Cloud Computing, Game Server Management',
     },
     {
       icon: workIcon,
-      date: '2021 - 2023',
-      title: 'Customer Support Executive',
-      subtitle: 'Lyfesolve Marketing Service',
-      desc: 'User Experience, Visual Design',
+      date: '2022 - 2023',
+      title: 'Intern Game Developer',
+      subtitle: 'Capcom',
+      desc: 'AI Development, Combat System Programming, Level Design',
     },
     {
-      icon: schoolIcon,
-      date: '2018-2021',
-      title: 'Bachelor of Science (BSC)',
-      subtitle: 'Bangabasi Morning College',
-      desc: 'Strategy, Social Media',
+      icon: workIcon,
+      date: '2021 - 2022',
+      title: 'Freelance Game Developer',
+      subtitle: 'Self-Employed',
+      desc: 'Indie Game Development, Unity & Unreal Engine, 2D & 3D Assets',
     },
     {
-      icon: schoolIcon,
-      date: '2016-2018',
-      title: 'Higher Secondary (HS)',
-      subtitle: 'Adarsh Madhyamik Vidhyalaya',
-      desc: 'Creative Direction, User Experience, Visual Design',
+      icon: workIcon,
+      date: '2020 - 2021',
+      title: 'Web Developer',
+      subtitle: 'Local Tech Startup',
+      desc: 'Frontend & Backend Development, React, Node.js, MySQL',
     },
     {
-      icon: schoolIcon,
-      date: '2016',
-      title: 'Madhyamik (10th)',
-      subtitle: 'A.R.N.C Vidhyalaya',
-      desc: 'Creative Direction, Visual Design',
-    },
+      icon: workIcon,
+      date: '2019 - 2020',
+      title: 'Customer Support (Tech Specialist)',
+      subtitle: 'Game Studio Support Team',
+      desc: 'Game Bug Fixing, Player Experience Analysis, Community Feedback',
+    },  
     { icon: starIcon },
   ];
 
 export const projects = [
     {
-      title: "Digital Marketing",
+      title: "Project 1",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-      techStack: ["Next.js", "MongoDB", "Stripe", "Tailwind"],
-      link: "https://business420.netlify.app/",
-      github: 'https://github.com/rohitsingh93300/YTBusiness',
-      image: Digital, // Replace with your project screenshot
+        "Re zero Novel Website",
+      techStack: ["Javascript", "Python", "Bootstrap", "Canva"],
+      link: "",
+      github: '',
+      image: Project1Image, // Replace with your project screenshot
     },
     {
-      title: "Nike Shoes",
+      title: "Project 2",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-      techStack: ["React", "Node.js", "MongoDB", "shadcn UI"],
-      link: "https://nike-topaz-delta.vercel.app/",
-      github: 'https://github.com/rohitsingh93300/YT-Nike',
-      image: Nike, // Replace with your project screenshot
+        "Portfolio  ",
+      techStack: ["Javascript", "Python", "Bootstrap", "Canva"],
+      link: "",
+      github: '',
+      image: Project2Image, // Replace with your project screenshot
     },
     {
-      title: "Clothify",
+      title: "Project 3",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-      techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
-      link: "https://clothify-two.vercel.app/",
-      github: 'https://github.com/rohitsingh93300/YT-Clothify',
-      image: Clothify, // Replace with your project screenshot
+        "Portfolio",
+      techStack: ["React.JS", "Tailwind"],
+      link: "",
+      github: '',
+      image: Project3Image, // Replace with your project screenshot
     },
   ];
